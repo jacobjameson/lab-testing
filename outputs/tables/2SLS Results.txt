@@ -1,0 +1,41 @@
+
+2SLS Results: Admmission and 72-Hour
+========================================================================
+                                      Admission        72 Hour Return   
+                                         (1)                 (2)        
+------------------------------------------------------------------------
+Lab Testing                           0.509***            -0.072**      
+                                       (0.130)             (0.030)      
+                                                                        
+N                                      43,328              43,328       
+R2                                      0.128              -0.002       
+Adjusted R2                             0.122              -0.008       
+Residual Std. Error (df = 43062)        0.375               0.188       
+========================================================================
+Notes:                            ***Significant at the 1 percent level.
+                                   **Significant at the 5 percent level.
+                                   *Significant at the 10 percent level.
+
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Results: Admission and 72-Hour} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\\[-1.8ex] & Admission & 72 Hour Return \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Lab Testing & 0.509$^{***}$ & $-$0.072$^{**}$ \\ 
+  & (0.130) & (0.030) \\ 
+  & & \\ 
+\textit{N} & 43,328 & 43,328 \\ 
+R$^{2}$ & 0.128 & $-$0.002 \\ 
+Adjusted R$^{2}$ & 0.122 & $-$0.008 \\ 
+Residual Std. Error (df = 43062) & 0.375 & 0.188 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Notes:} & \multicolumn{2}{r}{$^{***}$Significant at the 1 percent level.} \\ 
+ & \multicolumn{2}{r}{$^{**}$Significant at the 5 percent level.} \\ 
+ & \multicolumn{2}{r}{$^{*}$Significant at the 10 percent level.} \\ 
+\end{tabular} 
+\end{table} 

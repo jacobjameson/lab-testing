@@ -1,0 +1,41 @@
+
+====================================================================
+                            Model 1       Model 2       Model 3     
+--------------------------------------------------------------------
+test.inclination                0.95 ***      0.95 ***      0.95 ***
+                               (0.02)        (0.02)        (0.02)   
+--------------------------------------------------------------------
+Num. obs.                   43328         43328         43328       
+R^2 (full model)                0.02          0.39          0.39    
+R^2 (proj model)                0.01          0.02          0.02    
+Adj. R^2 (full model)           0.01          0.38          0.38    
+Adj. R^2 (proj model)           0.01          0.01          0.01    
+F statistic (full model)        4.01        101.21         99.07    
+F (full model): p-value         0.00          0.00          0.00    
+F statistic (proj model)     1828.26       3279.65       3261.40    
+F (proj model): p-value         0.00          0.00          0.00    
+Num. groups: dayofweekt       168           168           168       
+Num. groups: month_of_year     12            12            12       
+Num. groups: age_groups                       4             4       
+Num. groups: complaint_esi                   87            87       
+Num. groups: GENDER                                         2       
+Num. groups: race                                           6       
+====================================================================
+*** p < 0.001; ** p < 0.01; * p < 0.05
+
+First Stage
+============================================================================
+                                         LAB_PERFORMED                      
+                           (1)                (2)                (3)        
+----------------------------------------------------------------------------
+test.inclination         0.954***           0.948***           0.948***     
+                         (0.022)            (0.017)            (0.017)      
+                                                                            
+N                         43,328             43,328             43,328      
+R2                        0.016              0.386              0.387       
+Adjusted R2               0.012              0.383              0.383       
+Residual Std. Error 0.421 (df = 43148) 0.333 (df = 43059) 0.333 (df = 43053)
+============================================================================
+Notes:                                ***Significant at the 1 percent level.
+                                       **Significant at the 5 percent level.
+                                       *Significant at the 10 percent level.

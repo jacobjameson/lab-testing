@@ -1,0 +1,32 @@
+
+Reduced Form
+========================================================================
+                                        admit             RTN_72_HR     
+                                         (1)                 (2)        
+------------------------------------------------------------------------
+test.inclination                      0.484***            -0.069**      
+                                       (0.123)             (0.029)      
+                                                                        
+patients_in_hospital                   -0.0001            -0.00000      
+                                      (0.0002)            (0.0002)      
+                                                                        
+N                                      43,328              43,328       
+R2                                      0.173               0.012       
+Adjusted R2                             0.168               0.006       
+Residual Std. Error (df = 43061)        0.365               0.186       
+========================================================================
+Notes:                            ***Significant at the 1 percent level.
+                                   **Significant at the 5 percent level.
+                                   *Significant at the 10 percent level.
+felm(formula = admit ~ test.inclination + patients_in_hospital | 
+    dayofweekt + month_of_year + complaint_esi | 0 | ED_PROVIDER, 
+    data = data)
+                          Estimate Cluster s.e.
+test.inclination      0.0547973091 0.0139565072
+patients_in_hospital -0.0001114102 0.0002479301
+felm(formula = RTN_72_HR ~ test.inclination + patients_in_hospital | 
+    dayofweekt + month_of_year + complaint_esi | 0 | ED_PROVIDER, 
+    data = data)
+                          Estimate Cluster s.e.
+test.inclination     -7.774653e-03 0.0032327964
+patients_in_hospital -4.862650e-06 0.0001505302
